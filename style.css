@@ -1,0 +1,345 @@
+
+
+/*----------Corpo Total------------*/ 
+html, body{ 
+	margin: 0; 
+	padding: 0; 
+	height: 100%; 
+}
+/*---------Barra Preto-------------*/ 
+
+#menu1 ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+#menu1 ul li{
+	vertical-align: middle;
+	display: inline;
+}
+
+#menu1 ul li a{
+	display: inline-block;
+}
+
+#menu1 ul li:hover{
+	color: #64D5FF;
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.navbar-preto{
+	background-color: #313233;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: white;
+	margin-top: 0px;
+	height: 20px;
+	padding: 5px;
+	display: block;
+}
+
+
+/*-----------Slide-----------*/ 
+#slideshow{ 
+    margin: 0.2% auto; 
+    position: relative; 
+    width: 90%; 
+    height: 65%; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+}
+
+#slideshow > div{ 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+/*----------------------*/ 
+
+/*--------- Barra Azul------------*/ 
+.menu{
+	background-color: #0082b7;	
+	padding: 12px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 550;
+	font-size: 17px;
+	color: white;
+	width: 100%;
+	height: 50px;
+	margin-top: 4%;
+	display: block;
+	border-top: 2px solid grey;
+	border-bottom: 1px solid black;
+	position:relative;z-index:99
+}
+
+
+ul.menu{ 
+	float:left;  
+	border-radius:5px; 
+	padding:0 5px;
+	overflow: visible;
+}
+
+.menu li{ 
+	float: left; 
+	width: 150px; 
+}
+
+.menu li a{ 
+	display: block; 
+	padding: 0 20px; 
+	line-height: 45px; 
+	height: 45px; 
+	float: left; 
+	transition: all 0.1s linear; 
+}
+
+.sub-menu {
+	display: none;
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Configurações nivel 2*/
+.sub-menu li:hover{ 
+	display: block; 
+	top: 45px; 
+	left: 0; 
+	padding: 5px; 
+	width: 200px; 
+	border-radius: 0 0 5px 5px;   
+	visibility: visible;
+}
+
+.menu ul.sub-menu{  
+	width: auto; 
+	padding: 0 80px 0px 0px; 
+	border-radius:5px; 
+	overflow: visible;
+}
+ 
+/* Configurações nivel 2*/
+.menu li:hover > ul.sub-menu{ 
+	display: block; 
+	top: 80px; 
+	left: 195px; 
+	padding: 5px; 
+	width: auto;  
+	border-radius: 0 5px 5px 5px; 
+	visibility: visible;
+}
+
+.menu ul.sub-menu a{  
+	margin-top: 1%;
+	color: #1C1C1C;
+	width: 300px; 
+	border: 1px solid #e9e9e9;
+	padding: 0 20px; 
+	background-color: #E6E6E6;
+	border-radius: 5px; 
+}
+
+#menu2 ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+#menu2 ul li{
+	vertical-align: middle;
+	display: inline;
+}
+
+#menu2 ul li:hover{
+	color: white;
+}
+
+
+
+/*----------Barra Branca ----------*/ 
+
+#cplogo{
+	padding: 2%;
+}
+
+.navSuav{
+	margin-top: 2%;
+	display: inline-flex;
+	height: 0px;
+
+}
+
+#dialogo h2, h3{
+	width: 700px;
+	margin-top: 5%;
+}
+
+#dialogo h2{
+	font-family: Arial, sans-serif;
+	font-weight: 550;
+	color: #0082b7;
+}
+
+#dialogo h3{
+	font-family: Arial, sans-serif;
+	font-weight: 600;
+	color: #606060;
+}
+
+.hgroup #cplogo{
+	width: 6%;
+	min-height: 100px;
+}
+
+.hgroup{
+	display: inline-flex;
+	max-height: 20px;
+	height: 0px;
+}
+
+#uflogo{
+	display: block;
+	width: 60%;
+	margin-left: 20%;
+}
+
+/* Número da tecla de acessibilidade */
+a[accesskey]:after,button[accesskey]:after,input[accesskey]:after,label[accesskey]:after,legend[accesskey]:after,textarea[accesskey]:after{
+	margin-left:.3em;
+	content:attr(accesskey);
+	background:#444;
+	color:#fff;
+	padding:2px 4px;
+}
+a:focus{
+	background: #1887b4;
+}
+a{
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+a[tabindex]:focus {
+	color: blue;
+	outline: none;
+}
+/*-------------------------------------*/
+
+/* Menu  de acessibilidade */
+.accessibility ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-flex;
+}
+
+.accessibility li a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.accessibility li a:hover {
+	background-color: rgba(164,162,184,0.6);
+}
+/* ---------------------------*/
+
+
+/*----- Paralax BABY -----*/
+
+.paralax-1, .paralax-2 {
+  	position: relative;
+  	opacity: 0.65;
+  	background: #0082b7;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.paralax-1 {
+ 	background-image: url("imagens/cpan.jpg");
+  	min-height: 70%;
+  	width: 91%; 
+  	margin: 0.2% auto; 
+}
+
+.paralax-2 {
+  	background-image: url("imagens/corumba.jpg");
+  	min-height: 70%;
+  	width: 91%;
+  	margin: 0.2% auto; 
+}
+
+.caption {
+	margin: 0.2% auto; 
+  	position: absolute;
+  	left: 0;
+  	top: 50%;
+  	width: 91%;
+  	text-align: center;
+  	color: #000;
+}
+
+.caption span.border {
+  	background-color: #989898;
+  	opacity: 0.9;
+  	color: white;
+  	padding: 18px;
+  	font-size: 25px;
+  	letter-spacing: 5px;
+  	margin-left: 10%; 
+}
+
+.paralax-1, .paralax-2 h3{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  margin: 0.2% auto; 
+}
+
+/*  scrolling efeito */
+@media only screen and (max-device-width: 1024px) {
+    .paralax-1, .paralax-2{
+        background-attachment: scroll;
+    }
+}
+
+.corfooter{
+	font-family: Lato,sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #2E2E2E;
+	color: white;
+	text-align: center;
+}
+
+
+/* Deixar menu fixo tela */
+.f-nav{ 
+	z-index: 9999; 
+	position: fixed; 
+	left: 0; 
+	top: -55px; 
+	width: 100%;
+}
+
+.nav-container{
+   display: block; 
+   width: 100%; 
+}
